@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Serif+JP:wght@200;300;600;900&family=Space+Grotesk:wght@300;500;700&family=Yuji+Syuku&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif JP", serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-brush: "Yuji Syuku", serif;
+
+  --color-nippon-red: #BC002D;
+  --color-nippon-ink: #1A1A1A;
+  --color-nippon-bg: #F9F9F9;
+  --color-nippon-border: #E5E7EB;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-nippon-bg text-nippon-ink font-sans antialiased selection:bg-nippon-red selection:text-white;
+  }
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Traditional Patterns */
+.pattern-seigaiha {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='60' viewBox='0 0 100 60'%3E%3Cpath fill='%23bc002d' fill-opacity='0.1' d='M0 30c0-16.57 13.43-30 30-30s30 13.43 30 30-13.43 30-30 30S0 46.57 0 30zm60 0c0-16.57 13.43-30 30-30s30 13.43 30 30-13.43 30-30 30-30-13.43-30-30zM30 60c0-16.57 13.43-30 30-30s30 13.43 30 30-13.43 30-30 30-30-13.43-30-30zM30 0c0 16.57 13.43 30 30 30s30-13.43 30-30-13.43-30-30-30-30 13.43-30 30zM0 0c0 16.57 13.43 30 30 30S60 16.57 60 0 46.57-30 30-30 0-16.57 0 0zm0 60c0 16.57 13.43 30 30 30s30-13.43 30-30-13.43-30-30-30-30 13.43-30 30z'/%3E%3C/svg%3E");
+}
+
+.pattern-asanoha {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath fill='%23bc002d' fill-opacity='0.05' d='M20 0l20 10L20 20 0 10 20 0zm0 40l20-10L20 20 0 30l20 10zM0 20l10-20 10 20-10 20-10-20zm40 0l-10-20-10 20 10 20 10-20z'/%3E%3C/svg%3E");
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-nippon-bg;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-nippon-red/20 hover:bg-nippon-red;
+}
