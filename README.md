@@ -40,24 +40,26 @@ The project focuses on delivering a visually immersive experience using smooth a
 - **HTML5**  
 - **CSS3**  
 
----
-
 ## 📁 Project Structure
 
+```
 Japan-webpage/
 │
-├── public/
-├── src/
-│ ├── App.tsx
-│ ├── main.tsx
-│ ├── index.css
+├── public/                # Static assets (images, icons, etc.)
 │
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-
----
+├── src/                   # Main source code
+│   ├── App.tsx            # Root React component
+│   ├── main.tsx           # App entry point
+│   ├── index.css          # Global styles
+│
+├── index.html             # HTML template
+├── package.json           # Project dependencies & scripts
+├── tsconfig.json          # TypeScript configuration
+├── vite.config.ts         # Vite configuration
+├── metadata.json          # Project metadata (if used)
+├── .env.example           # Environment variables template
+├── .gitignore             # Git ignored files
+```
 
 ## 🚀 Getting Started
 
