@@ -3,7 +3,7 @@
 # 🇯🇵 Japan Webpage  
 ### Cinematic Japanese Culture Experience
 
-<img src="https://i.postimg.cc/sggBL4Z4/Screenshot-2026-05-02-140050.png" alt="Japan Webpage Preview" width="100%"/>
+<img src="https://i.postimg.cc/gJQ1yqLz/Screenshot-2026-05-03-111431.png" alt="Japan Webpage Preview" width="100%"/>
 
 <br/>
 
