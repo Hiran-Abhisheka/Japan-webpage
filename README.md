@@ -1,20 +1,75 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# 🇯🇵 Japan Webpage  
+### Cinematic Japanese Culture Experience
+
+<img src="https://i.postimg.cc/sggBL4Z4/Screenshot-2026-05-02-140050.png" alt="Japan Webpage Preview" width="100%"/>
+
+<br/>
+
+🔗 **Live Demo**  
+https://japan-webpage.vercel.app/
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ✨ Overview
 
-View your app in AI Studio: https://ai.studio/apps/40677343-367c-4c1f-974c-5cfd8c7408d0
+**Japan Webpage** is a modern **React + TypeScript web application** built with **Vite**, inspired by Japanese culture, minimalism, and cinematic storytelling.
 
-## Run Locally
+The project focuses on delivering a visually immersive experience using smooth animations, structured components, and clean UI design—reflecting the Japanese concept of **“Ma” (the beauty of space and simplicity)**.
 
-**Prerequisites:**  Node.js
+---
 
+## 🎯 Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 🎬 Cinematic scroll-based animations  
+- ⚛️ Component-based architecture using React  
+- 🧠 Type-safe development with TypeScript  
+- 🎨 Minimalist UI inspired by Japanese aesthetics  
+- ⚡ Fast performance powered by Vite  
+- 📱 Fully responsive design  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React (TypeScript)**  
+- **Vite**  
+- **HTML5**  
+- **CSS3**  
+
+---
+
+## 📁 Project Structure
+
+Japan-webpage/
+│
+├── public/
+├── src/
+│ ├── App.tsx
+│ ├── main.tsx
+│ ├── index.css
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Hiran-Abhisheka/Japan-webpage.git
+
+# Navigate into the project
+cd Japan-webpage
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
