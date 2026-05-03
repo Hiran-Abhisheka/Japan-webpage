@@ -537,7 +537,7 @@ export default function App() {
               className="grid grid-cols-1 md:grid-cols-3 gap-8"
             >
                 {[
-                  { img: "https://images.unsplash.com/photo-1478144592103-2582188fe48c?q=80&w=2670&auto=format&fit=crop", label: "01 / SILENT GATE", jp: "鳥居" },
+                  { img: "https://images.unsplash.com/photo-1542931287-023b922fa89b?q=80&w=2670&auto=format&fit=crop", label: "01 / SILENT GATE", jp: "鳥居" },
                   { img: "https://images.unsplash.com/photo-1522383225653-ed111181a951?q=80&w=2676&auto=format&fit=crop", label: "02 / TRANSIENCE", jp: "桜" },
                   { img: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=2670&auto=format&fit=crop", label: "03 / KYOTO LANES", jp: "京都" }
                 ].map((item, i) => (
@@ -581,7 +581,7 @@ export default function App() {
                 >
                    <div className="absolute inset-0 border border-nippon-red/20 -m-4 z-0" />
                    <img 
-                      src="https://images.unsplash.com/photo-1569429593410-b498b3f3246a?q=80&w=2574&auto=format&fit=crop" 
+                      src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=2574&auto=format&fit=crop" 
                       alt="Ukiyo-e inspiration" 
                       className="relative z-10 w-full shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000"
                       referrerPolicy="no-referrer"
